@@ -1,0 +1,1 @@
+{"version":3,"file":"sensor.component.js","sourceRoot":"","sources":["sensor.component.ts"],"names":[],"mappings":";;;;;;;;;;AAAA,qBAA0B,eAAe,CAAC,CAAA;AAC1C,qBAAsB,eAAe,CAAC,CAAA;AAMtC;IAEI;IACA,CAAC;IAFD;QAAC,YAAK,EAAE;;uDAAA;IALZ;QAAC,gBAAS,CAAC;YACT,QAAQ,EAAE,WAAW;YACrB,QAAQ,EAAE,wBAAwB;SACnC,CAAC;;uBAAA;IAKF,sBAAC;AAAD,CAAC,AAJD,IAIC;AAJY,uBAAe,kBAI3B,CAAA"}

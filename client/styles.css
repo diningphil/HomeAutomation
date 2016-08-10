@@ -1,0 +1,62 @@
+html,body {
+    height:100%;
+    width: 100%;
+    margin:0;
+    padding:0;
+    position: fixed;
+    overflow: hidden;
+}
+
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+  white-space: nowrap;
+}
+ 
+table {
+    max-width: auto;
+    max-height: auto;
+    margin: auto;
+    border-spacing: 20px;
+}
+
+td, th {
+    height: 200px;
+    width: 250px;
+    vertical-align:baseline;
+    padding-top: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3),0 2px 10px 0 rgba(0,0,0,0.3);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.firstDiv {
+    height: 100%;
+    background-color: #369;
+}
+.navbar {
+    background-color: white;
+    padding-left: 20px;
+}
+.title {
+    color: black;
+}
+
+.temperature {
+    background-color: deepskyblue
+}
+.humidity {
+    background-color: cadetblue
+}
+.numberOfDevs {
+    background-color: darkseagreen
+}
+.energeticCost {
+    background-color: darkorange;
+}
+
+ /*
+  * See https://github.com/angular/angular.io/blob/master/public/docs/_examples/styles.css
+  * for the full set of master styles used by the documentation samples
+  */

@@ -1,0 +1,31 @@
+{
+  "name": "home-web-automation",
+  "version": "1.0.0",
+  "description": "simple server that interacts with raspberry pi and displays using angular",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diningphil/HomeWebAutomation.git"
+  },
+  "keywords": [
+    "mean",
+    "angular2",
+    "express",
+    "node"
+  ],
+  "author": "diningphil (Federico Errica)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diningphil/HomeWebAutomation/issues"
+  },
+  "homepage": "https://github.com/diningphil/HomeWebAutomation#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "express": "^4.14.0",
+    "socket.io": "^1.4.8",
+    "typescript": "^1.8.10"
+  }
+}
