@@ -1,14 +1,14 @@
 # HomeAutomation
-Angular2 -- Express -- NodeJS to interact with devices and display sensor data.
+## Angular2 -- Express -- NodeJS to interact with devices and display sensor data.
 
-Instructions:
+### Instructions:
 
-1) type npm install in the client and in the main folder
+1. type `cd client && npm install && tsc && cd .. && npm install`
 
-2) type tsc in the client folder
+2. run `node raspiServer.js` in your device (default port is 3001)
 
-3) run node raspiServer.js in your device
+3. adjust device's IP address in server.js to enable a connection between server and devices
 
-4) adjust IP address in server.js to make main server talk with device(s)
+4. run `node server.js` and test it in localhost:3000
 
-5) run node server.js and test it in localhost:3000
+You find a .mdj file --> open it with StarUML to visualize a couple of diagrams showing the simple architecture
