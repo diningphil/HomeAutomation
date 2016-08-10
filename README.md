@@ -12,3 +12,7 @@
 4. run `node server.js` and test it in localhost:3000
 
 Note: You find a .mdj file in the main folder --> open it with StarUML if you want to visualize a couple of diagrams showing the simple architecture of the project.
+
+## TODO
+1. Improve graphics
+2. Add more features
