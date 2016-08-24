@@ -3,7 +3,7 @@
 
 ### Instructions:
 
-1. type `cd client && cd app && npm install && tsc && cd .. && npm install`
+1. From inside the main folder type `cd client && npm install && tsc && cd .. && npm install`
 
 2. run `node raspiServer.js` in your device (default port is 3001)
 
