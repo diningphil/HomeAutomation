@@ -27,8 +27,10 @@ var getData = function(device) {
                 // Data reception is done, do whatever with it!
                 var parsed = JSON.parse(body);
                 //console.log('received data from ' + device.host);
-                sensorData.push(parsed);
-                numberOfDevices++; 
+                parsed.forEach(object => {
+                    sensorData.push(object);
+                });
+                numberOfDevices++;
             });
         }).on('error', (e) => {
             console.log(`Got error: ${e.message}`);

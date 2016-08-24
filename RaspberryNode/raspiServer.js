@@ -1,3 +1,4 @@
+var fs = require('fs');
 var express = require('express');
 var app = express();
 
@@ -6,7 +7,8 @@ app.get('/', function (req, res) {
 });
 
 app.get('/sensorData', function (req, res) {
- res.send({ title: "Temperature", "value": Math.floor(Math.random()*100) });
+  var obj = JSON.parse(fs.readFileSync('data.txt', 'utf8'));
+  res.send(obj);
 });
 
 app.listen(3001, function () {

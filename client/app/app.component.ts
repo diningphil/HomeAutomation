@@ -50,7 +50,6 @@ export class AppComponent {
         obj.sensors = [];
         this.numberOfDevices = data.numberOfDevices;
         data.data.forEach(element => {
-            console.log(element);
             obj.sensors.push(element);
         });
     }
