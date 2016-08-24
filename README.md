@@ -5,9 +5,9 @@
 
 1. In the main folder type `cd client && npm install && tsc && cd .. && npm install`
 
-2. run `python sensor.py` on the raspberry device in order to put data measurements in a file called "data.txt" 
+2. run `python sensor.py` on the (raspberry) device in order to put data measurements in a file called "data.txt" 
 
-3. run `node raspiServer.js` in your device (default port is 3001. IMPORTANT NOTE: it gets data from "data.txt")
+3. run `node raspiServer.js` in your (raspberry) device (default port is 3001. IMPORTANT NOTE: it gets data from "data.txt")
 
 4. adjust device's IP address in server.js to enable a connection between server and devices
 
