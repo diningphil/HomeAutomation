@@ -20,6 +20,8 @@ Note: You find a .mdj file in the main folder --> open it with StarUML if you wa
 
 ## TODO
 0. (I'm lazy) provide an image of the JSON data exchange schema for this application
-1. Provide extensibility
-2. Improve front-end graphics
+1. (Really lazy) Add locking on the "data.txt" file
+2. Provide extensibility
+3. Add error handling
+4. Improve front-end graphics
 
