@@ -25,12 +25,16 @@ var getData = function(device) {
             });
             response.on('end', function() {
                 // Data reception is done, do whatever with it!
-                var parsed = JSON.parse(body);
-                //console.log('received data from ' + device.host);
-                parsed.forEach(object => {
-                    sensorData.push(object);
-                });
-                numberOfDevices++;
+                try {
+                    var parsed = JSON.parse(body);
+                    //console.log('received data from ' + device.host);
+                    parsed.forEach(object => {
+                        sensorData.push(object);
+                    });
+                    numberOfDevices++;
+                } catch(error){ 
+                    console.log("Catched error: " + error + ". Do nothing");
+                }
             });
         }).on('error', (e) => {
             console.log(`Got error: ${e.message}`);
